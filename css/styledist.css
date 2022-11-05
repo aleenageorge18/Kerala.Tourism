@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-size: cover;
+    background-position:center;
+}
+
+header{
+    height: 4em;
+    background-color:none;
+}
+.head-tag{
+    float: right;
+    margin-top: 23px;
+    margin-right: 55px ;
+}
+.head-tag a{
+    font-family:'Lucida Sans';  
+   font-weight: 600; 
+    text-decoration: none;
+    color: white;
+    border: 2px solid black;
+    padding: 8px;
+    padding-right: 11px;
+    margin-right: 8px;
+    background-color: green;
+}
+.head-tag a:hover{
+    background-color: yellowgreen;
+    color: black;
+    transition: 0.5s ease-in-out;
+}
+#cap{
+    /* border: 1px solid white; */
+    margin-left: 28%;
+    font-family: 'Lucida Sans';
+    font-weight: bolder;
+    font-style: italic;
+}
+#capt{
+    /* border: 1px solid white; */
+    margin-right: 4%;
+    margin-top: 8%;
+    font-family: 'Lucida Sans';
+    font-weight: bolder;
+    font-style: italic;
+    float: right;
+    width: 30%;
+}
+
+.container{
+     /* border: 2px solid black;  */
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+/* .container img{
+    width: 250px;
+    height: 200px;
+    margin:5px;
+}  */
+.p-box{
+    border: 2px solid white ;
+    width: 20%;
+    float: left;
+    margin-left: 30px;
+    height: 22em;
+    margin-bottom: 3%;
+    padding: 10px;
+    background-color: rgba(255,255,255,0.3);
+}
+
+.p-box h3{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.p-box p{
+    line-height: 1.25em;
+    text-align: justify;
+}
+
+.p-box a{
+    text-decoration: none;
+    color: red;
+}

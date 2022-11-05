@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-size: cover;
+}
+
+ header{
+    height: 4em;
+    background-color: black;
+
+}
+.headtag{ 
+    float: right;
+    margin-top: 23px;
+    margin-right: 55px ;
+}
+
+.headtag a{
+    font-family:'Lucida Sans';  
+    font-weight: 600;  
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+    padding: 8px;
+    margin-right: 8px;
+    background-color: chocolate;
+}
+
+.headtag a:hover{
+    background-color: yellowgreen;
+    color: black;
+    transition: 0.5s ease-in-out;
+}
+
+.sidebar{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    float :right;
+    color: white;
+    padding-top: 8%;
+    text-align: left;
+    font-weight: 800;
+    /* border: 1px solid white; */
+    margin-left: 40%;
+    margin-right: 5%;
+    width: 50%;
+    height: 18em;
+}
+#heading{
+    color:limegreen;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.title1 {
+    animation: color-animation 4s linear infinite;
+  }
+
+  .word1 {
+    --color-1: #DF8453;
+    --color-2: #3D8DAE;
+    --color-3: #E4A9A8;
+  }
+
+  .word2 {
+    --color-1: #DBAD4A;
+    --color-2: #ACCFCB;
+    --color-3: #17494D;
+  }
+  
+  .word3 {
+    --color-1: #ACCFCB;
+    --color-2: #E4A9A8;
+    --color-3: #DF8453;
+  }
+  
+  .word4 {
+    --color-1: #3D8DAE;
+    --color-2: #DF8453;
+    --color-3: #E4A9A8;
+  }
+
+  .word5 {
+    --color-1: #DBAD4A;
+    --color-2: #ACCFCB;
+    --color-3: #17494D;
+  }
+  
+  @keyframes color-animation {
+    0%    {color: var(--color-1)}
+    32%   {color: var(--color-1)}
+    33%   {color: var(--color-2)}
+    65%   {color: var(--color-2)}
+    66%   {color: var(--color-3)}
+    99%   {color: var(--color-3)}
+    100%  {color: var(--color-1)}
+  }

@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-size: cover;
+}
+header{
+    height: 4em;
+    background-color:none;
+}
+.head--tag{
+    float: right;
+    margin-top: 23px;
+    margin-right: 55px ;
+}
+.head--tag a{
+    font-family:'Lucida Sans';
+    font-weight: 600;
+    text-decoration: none;
+    color:darkblue;
+    border: 2px solid purple;
+    padding: 8px;
+    padding-right: 11px;
+    margin-right: 8px;
+    background-color:deepskyblue;
+}
+.head--tag a:hover{
+    background-color:lightcoral ;
+    color: black;
+    transition: 0.5s ease-in-out;
+    border: 2px solid black;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:darkred;
+    font-weight: bolder;
+    margin-left: 35%;
+    margin-top: 1px;
+}
+
+#names{
+    margin-left: 41%;
+    color:darkgreen;
+}
+#name{
+    margin-left: 37%;
+    color:darkgreen;
+}
+.containers{
+    /*border: 2px solid black; */
+    margin-top: 5%;
+    margin-left: 15%;
+}
+
+.containers img{
+    width: 450px;
+    height: 300px;
+    margin:5px;
+    margin-left: 22%;
+} 
+.p-box1{
+    border: 3px solid ;
+    width: 70%;
+    float: left;
+    margin-left: 30px;
+    height: 32.5em;
+    margin-bottom: 3%;
+    padding: 10px;
+    background-color: rgba(255,255,255,0.5);
+    margin-top: 5%;
+}
+
+.p-box1 h3{
+    text-align: center;
+    margin-top: 5px;
+    color: darkblue;
+    font-weight: bolder;
+}
+
+.p-box1 p{
+    line-height: 1.28em;
+    text-align: justify;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+}

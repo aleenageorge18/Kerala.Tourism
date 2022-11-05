@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-size: cover;
+}
+header{
+    height: 4em;
+    background-color:none;
+}
+.head--tag{
+    float: right;
+    margin-top: 23px;
+    margin-right: 55px ;
+}
+.head--tag a{
+    font-family:'Lucida Sans';
+    font-weight: 600;
+    text-decoration: none;
+    color:darkblue;
+    border: 2px solid purple;
+    padding: 8px;
+    padding-right: 11px;
+    margin-right: 8px;
+    background-color:deepskyblue;
+}
+.head--tag a:hover{
+    background-color:lightcoral ;
+    color: black;
+    transition: 0.5s ease-in-out;
+    border: 2px solid black;
+}
+
+.login{
+    float: right;
+    background-color:rgba(255,255,255,0.3);
+    height: 12em;
+    margin-top: 15%;
+    margin-right: 20%;
+    padding: 30px;
+    padding-right: 32px;
+}
+
+.login h2{
+    text-align: center;
+}
+.login input{
+    height: 1.8em;
+}
+
+.login #login-button{
+    width: 100%;
+    height: 1.9em;
+    color: white;
+    background-color: dodgerblue;
+    border: 1px solid dodgerblue;
+}
+#hii{
+    color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+#line{
+    color: purple;
+    font-family: 'Lucida Sans';
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.signup{
+    /*border: 2px solid blueviolet;
+    /*background-color:darkseagreen;*/
+    background-color: rgba(255,255,255,0.4);
+    height: 26em;
+    margin-top: 3%;
+    margin-right: 80%;
+    margin-left: 2%;
+    padding: 30px;
+    padding-right: 32px;
+}
+
+.signup h2{
+    text-align: center;
+}
+.signup input{
+    height: 1.8em;
+}
+.signup #sign-button{
+    width: 95%;
+    height: 1.9em;
+    color: white;
+    background-color: dodgerblue;
+    border: 1px solid dodgerblue;
+}
+
+#abc{
+    float: right;
+    color: darkmagenta;
+    font-family: 'Lucida Sans';
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 2%;
+    margin-right: 2%;
+} 
