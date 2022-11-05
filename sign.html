@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="css/account.css">
+</head>
+
+<body background="images/wild.jpg">
+    <img src="images/kerala-tourism.png" alt="logo">
+
+    <div class="head--tag">
+        <a href="index.html">Home</a>
+        <a href="anchor.html">Log In</a>
+        <a href="district.html">District</a>
+    </div> 
+    <br>
+     <h2 id="abc">Create an account to discover the unlimited beauty!!!</h2>
+    <form action="district.html" class="signup" onsubmit="return verify();">
+        <h2>Create an account</h2>
+        <br>
+         <div class="sign-cont">
+             <label>First Name</label>
+             <br>
+             <input type="text" placeholder="Enter your first name" id="Fname">
+         </div>
+         <br>
+         <div class="sign-cont">
+             <label>Second Name</label>
+             <br>
+             <input type="text" placeholder="Enter your second name" id="Sname">
+         </div>
+         <br>
+         <div class="sign-cont">
+            <label>Email Address</label>
+            <br>
+            <input type="email" required placeholder="Enter your email id" id="Email">
+        </div>
+        <label for="error" id="error"></label>
+        <br>
+         <div class="sign-cont">
+            <label>Phone Number</label>
+            <br>
+            <input type="number" placeholder="Enter your phone number" id="Phno">
+        </div>
+         <br>
+         <div class="sign-cont">
+            <label>Password</label>
+            <br>
+            <input type="password" required placeholder="Enter your Password" id="pswd">
+        </div>
+        <label for="error" id="error"></label>
+        <br>
+         <div>
+            <button id="sign-button">Sign Up</button>
+         </div>
+     </form> 
+     <script src="form.js"></script>
+</body>
